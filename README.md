@@ -63,5 +63,5 @@ and illustrate how the learning rate ((\alpha)) influences the gradient descent 
 
 # Loss Function
 
-Consider a simple quadratic loss function:
+Consider a simple quadratic loss function:<br/>
 $L(w) = (w - 4)^2$
