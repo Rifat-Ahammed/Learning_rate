@@ -109,3 +109,7 @@ Let's calculate one step of the update for two different learning rates, startin
 
 2. For $\alpha = 1.0$<br/>
     $w_{\text{new}} = 0 - 1.0 \cdot 2(0 - 4) = 8$
+
+In the first case, $w$ moves slightly towards the optimal value. In the second, $w$ overshoots the
+minimum significantly. This illustrates how the choice of learning rate impacts the convergence
+behavior in gradient descent.
