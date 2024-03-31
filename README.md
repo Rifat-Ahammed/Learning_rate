@@ -12,7 +12,7 @@ descent is:
 
 $$w_{\text{new}} = w_{\text{old}} - \alpha \cdot \nabla L(w_{\text{old}})$$
 
-where:
+where:<br/>
 w_{\text{new}} is the current weight,
 is the updated weight,
 is the learning rate, and
