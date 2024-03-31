@@ -74,4 +74,19 @@ using gradient descent. <br/>
 The update rule in gradient descent adjusts $w$ by moving it in the opposite direction of the gradient
 of the loss function $\nabla L(w)$ with respect to $w$ , scaled by the learning rate $\alpha$:
 
-$\nabla L(w) = \frac{d}{dw} (w - 4)^2 = 2(w - 4)$
+$w_{\text{new}} = w_{\text{old}} - \alpha \cdot \nabla L(w_{\text{old}})$<br/>
+
+
+# Gradient of Loss Function
+
+The gradient of$L(w)$ with respect to $w$ is:<br/>
+
+$\nabla L(w) = \frac{d}{dw} (w - 4)^2 = 2(w - 4)$ <br/>
+
+This gradient tells us the slope of $L(w)$ at any point $w$, guiding how to adjust $w$ to decrease $L(w)$.
+
+# Applying the Update Rule
+
+$w_{\text{new}} = w_{\text{old}} - \alpha \cdot 2(w_{\text{old}} - 4)$<br/>
+
+This equation will iteratively adjust $w$ towards 4, depending on the value of $\alpha$.
