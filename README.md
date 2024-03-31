@@ -67,4 +67,9 @@ Consider a simple quadratic loss function:<br/>
 $L(w) = (w - 4)^2$<br/>
 
 This function has its minimum when $w = 4$, where $L(w) = 0$. Our goal is to adjust $w$ to minimize $L(w)$
-using gradient descent.
+using gradient descent. <br/>
+
+# Gradient Descent Update Rule
+
+The update rule in gradient descent adjusts $w$ by moving it in the opposite direction of the gradient
+of the loss function $\nabla L(w)$ with respect to $w$ , scaled by the learning rate ((\alpha)):
