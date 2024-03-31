@@ -56,7 +56,12 @@ when minimizing the loss function $L(w) = (w - 4)^2$, starting from an initial w
   This illustrates the risk of choosing a too high learning rate, where the model may fail to
   converge properly and instead oscillate around or overshoot the minimum.<br/>
 
-  #
-  To delve deeper into the mathematics of learning rates in the context of gradient descent, let's start
-  by defining a simple but concrete example. I'll use a quadratic function as our loss function, (L(w)),
-  and illustrate how the learning rate ((\alpha)) influences the gradient descent process mathematically.
+#
+To delve deeper into the mathematics of learning rates in the context of gradient descent, let's start
+by defining a simple but concrete example. I'll use a quadratic function as our loss function, (L(w)),
+and illustrate how the learning rate ((\alpha)) influences the gradient descent process mathematically.
+
+# Loss Function
+
+Consider a simple quadratic loss function:
+$L(w) = (w - 4)^2$
