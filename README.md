@@ -42,4 +42,21 @@ plt.show()
 
 ![image](https://github.com/Rifat-Ahammed/Learning_rate/assets/96107279/1e7a7dd3-77f8-419e-a711-51a57377e2e8)
 
+The plot above illustrates how the weight updates over iterations for different learning rates
+when minimizing the loss function $L(w) = (w - 4)^2$, starting from an initial weight of (w = 0).<br/>
 
+- For a low learning rate (LR=0.01), we see a very gradual approach towards the optimal weight of
+  4. This demonstrates how a small learning rate may lead to slow convergence.<br/>
+- With a higher learning rate (LR=0.1), the path towards the optimal weight becomes significantly
+  faster, showing an improvement in convergence speed without overshooting.<br/>
+- As the learning rate increases further (LR=0.5), the updates become more aggressive, and it still
+  converges towards the optimal weight but with larger steps. This is closer to the edge of what
+  might cause overshooting, but in this case, it effectively reaches near the optimal point.<br/>
+- At an even higher learning rate (LR=1.0), the weight update oscillates around the optimal value.
+  This illustrates the risk of choosing a too high learning rate, where the model may fail to
+  converge properly and instead oscillate around or overshoot the minimum.<br/>
+
+  #
+  To delve deeper into the mathematics of learning rates in the context of gradient descent, let's start
+  by defining a simple but concrete example. I'll use a quadratic function as our loss function, (L(w)),
+  and illustrate how the learning rate ((\alpha)) influences the gradient descent process mathematically.
