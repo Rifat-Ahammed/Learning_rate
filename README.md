@@ -14,10 +14,10 @@ $$w_{\text{new}} = w_{\text{old}} - \alpha \cdot \nabla L(w_{\text{old}})$$
 
 ## where:<br/>
 
-$w_{\text{new}} is the current weight,<br/>
-is the updated weight,
-is the learning rate, and
-is the gradient of the loss function with respect to at the old weight.
+$w_{\text{new}}$ is the current weight,<br/>
+is the updated weight,<br/>
+is the learning rate, and<br/>
+is the gradient of the loss function with respect to at the old weight.<br/>
 
 Let's generate a simple quadratic loss function = , where the minimum loss is achieved
 when (w = 4), and simulate gradient descent with different learning rates to see how it impacts the
