@@ -7,3 +7,8 @@ local minima, it could also mean that we’ll be taking a very long time to reac
 do. On the other hand, a high learning rate might allow us to converge quickly, but there's a risk of
 overshooting the lowest point if the step size is too large.
 
+Minimize a loss function L(w) with respect to the weight(w) . The update rule for using gradient
+descent is:
+
+  w(new) = w(old) - α * ∇L(w(old))
+
