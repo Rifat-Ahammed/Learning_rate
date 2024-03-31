@@ -19,7 +19,7 @@ $$w_{\text{new}} = w_{\text{old}} - \alpha \cdot \nabla L(w_{\text{old}})$$
 - $\alpha$ is the learning rate, and<br/>
 - $\nabla L(w_{\text{old}})$ is the gradient of the loss function with respect to at the old weight.<br/>
 
-Let's generate a simple quadratic loss function = , where the minimum loss is achieved
+Let's generate a simple quadratic loss function $L(w) = (w - 4)^2$, where the minimum loss is achieved
 when (w = 4), and simulate gradient descent with different learning rates to see how it impacts the
 convergence towards the minimum loss.
 
