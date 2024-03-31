@@ -23,7 +23,7 @@ Let's generate a simple quadratic loss function $L(w) = (w - 4)^2$, where the mi
 when (w = 4), and simulate gradient descent with different learning rates to see how it impacts the
 convergence towards the minimum loss.
 
-```
+```Python
 # plotting
 
 plt.figure(figsize=(10, 6))
