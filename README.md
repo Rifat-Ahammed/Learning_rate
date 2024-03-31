@@ -10,5 +10,6 @@ overshooting the lowest point if the step size is too large.
 Minimize a loss function L(w) with respect to the weight(w) . The update rule for using gradient
 descent is:
 
-$$w_(new) = w_(old) - α * ∇L(w_(old))$$
+w<sub>new</sub> = w<sub>old</sub> - α * ∇L(w<sub>old</sub>)
+
 
