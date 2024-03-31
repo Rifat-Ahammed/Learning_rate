@@ -64,4 +64,7 @@ and illustrate how the learning rate ((\alpha)) influences the gradient descent 
 # Loss Function
 
 Consider a simple quadratic loss function:<br/>
-$L(w) = (w - 4)^2$
+$L(w) = (w - 4)^2$<br/>
+
+This function has its minimum when $w = 4$, where $L(w) = 0$. Our goal is to adjust $w$ to minimize $L(w)$
+using gradient descent.
