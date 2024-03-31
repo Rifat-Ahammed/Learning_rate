@@ -40,4 +40,6 @@ plt.grid(True)
 plt.show()
 ```
 
+![image](https://github.com/Rifat-Ahammed/Learning_rate/assets/96107279/1e7a7dd3-77f8-419e-a711-51a57377e2e8)
+
 
