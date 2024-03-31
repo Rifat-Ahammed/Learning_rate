@@ -23,5 +23,21 @@ Let's generate a simple quadratic loss function $L(w) = (w - 4)^2$, where the mi
 when (w = 4), and simulate gradient descent with different learning rates to see how it impacts the
 convergence towards the minimum loss.
 
+```
+# plotting
+
+plt.figure(figsize=(10, 6))
+
+for i, lr in enumerate(learning_rate):
+    #print(i)
+    plt.plot(paths[i], label=f'LR={lr}')
+    
+plt.xlabel('Iteration')
+plt.ylabel('Weight Value')
+plt.title('Weight update paths for DIfferent learning Rates')
+plt.legend()
+plt.grid(True)
+plt.show()
+```
 
 
