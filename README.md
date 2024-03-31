@@ -12,7 +12,7 @@ descent is:
 
 $$w_{\text{new}} = w_{\text{old}} - \alpha \cdot \nabla L(w_{\text{old}})$$
 
-## where:<br/>
+**where:** <br/>
 
 - $w_{\text{old}}$ is the current weight,<br/>
 - $w_{\text{new}}$is the updated weight,<br/>
@@ -90,3 +90,22 @@ This gradient tells us the slope of $L(w)$ at any point $w$, guiding how to adju
 $w_{\text{new}} = w_{\text{old}} - \alpha \cdot 2(w_{\text{old}} - 4)$<br/>
 
 This equation will iteratively adjust $w$ towards 4, depending on the value of $\alpha$.
+
+# Effect of Different Learning Rates <br/>
+
+- **Small**  $\alpha$(e.g., 0.01): Makes small updates to $w$, leading to slow convergence towards the
+  minimum of $L(w)$. It may require many iterations to get close to $w = 4$.<br/>
+- **Moderate** $\alpha$(e.g., 0.1): Balances the rate of convergence and stability. It moves $w$ towards the
+  minimum efficiently without risking overshooting.
+- **Large** $\alpha$(e.g., 1.0): Makes large updates, which can either quickly converge to the minimum or
+  overshoot and diverge, depending on the function and initial conditions.
+
+# Example Calculation<br/>
+
+Let's calculate one step of the update for two different learning rates, starting from $w_{\text{new}} = 0$ :
+
+1. For $\alpha = 0.01$:<br/>
+   $w_{\text{new}} = 0 - 0.01 \cdot 2(0 - 4) = 0.08$
+
+2. For $\alpha = 1.0$<br/>
+    $w_{\text{new}} = 0 - 1.0 \cdot 2(0 - 4) = 8$
