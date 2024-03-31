@@ -59,7 +59,7 @@ when minimizing the loss function $L(w) = (w - 4)^2$, starting from an initial w
 #
 To delve deeper into the mathematics of learning rates in the context of gradient descent, let's start
 by defining a simple but concrete example. I'll use a quadratic function as our loss function, (L(w)),
-and illustrate how the learning rate ((\alpha)) influences the gradient descent process mathematically.
+and illustrate how the learning rate $\alpha$ influences the gradient descent process mathematically.
 
 # Loss Function
 
@@ -72,4 +72,6 @@ using gradient descent. <br/>
 # Gradient Descent Update Rule
 
 The update rule in gradient descent adjusts $w$ by moving it in the opposite direction of the gradient
-of the loss function $\nabla L(w)$ with respect to $w$ , scaled by the learning rate ((\alpha)):
+of the loss function $\nabla L(w)$ with respect to $w$ , scaled by the learning rate $\alpha$:
+
+$\nabla L(w) = \frac{d}{dw} (w - 4)^2 = 2(w - 4)$
